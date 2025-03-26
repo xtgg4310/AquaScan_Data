@@ -1,0 +1,2 @@
+rm -r ./0229_results_all ./data_process/data_processed/0229_img_infe ./data_process/datalist_0229_infe ./data_process/trainlist_0229_infe ./checkpoints/eval_model/optimal/trainlist_0229_infe_0229_infe_0229_infe
+rm -r 229_eval_labels data_0229

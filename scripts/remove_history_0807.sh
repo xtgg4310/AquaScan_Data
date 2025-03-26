@@ -1,0 +1,2 @@
+rm -r ./0807_results_all ./data_process/data_processed/0807_img_infe ./data_process/trainlist_0807_infe ./data_process/datalist_0807_infe ./checkpoints/eval_model/optimal/trainlist_0807_infe_0807_infe_0807_infe
+rm -r default_labels 0807_img

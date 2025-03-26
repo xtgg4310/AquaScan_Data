@@ -1,0 +1,2 @@
+rm -r ./0814_results_all ./data_process/data_processed/0814_img_infe ./data_process/datalist_0814_infe ./data_process/trainlist_0814_infe ./checkpoints/eval_model/optimal/trainlist_0814_infe_0814_infe_0814_infe
+rm -r 0814_img_new 0814_labels pre_0814_data pre_0814_test pre_label_0814

@@ -1,0 +1,2 @@
+rm -r ./0821_results_all ./data_process/data_processed/0821_img_infe ./data_process/datalist_0821_infe ./data_process/trainlist_0821_infe ./checkpoints/eval_model/optimal/trainlist_0821_infe_0821_infe_0821_infe
+rm -r 0821_img 0821_labels

@@ -1,0 +1,7 @@
+#generate img
+python ./data_process/generate_data_all.py --save_dir_all 0821_results_all --data ./0821_img --label ./0821_infe_label --save 0821_img_infe --file 0821_infe
+python infe_state.py --option_path config/resnet18_hfc_eval_0821.yaml
+python split_results.py --save_dir_all 0821_results_all --dir ./checkpoints/eval_model/optimal/trainlist_0821_infe_0821_infe_0821_infe/record --save_dir ./0821_infe_split
+python state.py --save_dir_all 0821_results_all --motion 0821_infe_split --moving save_moving_0821 --har 0821_har --detect 0821_detect --label 0821_labels --har_cfg 0.0 --smooth_cfg 0.0 --start_cfg 0.0 --gt_cfg 08213003 --gt_mode 1 --gt_trans 1 --gt_sc 08213003 --dis 15 --label_type 1 --sample 100000 --save ./acc_results/save_0821_3003.npy
+python state.py --save_dir_all 0821_results_all --motion 0821_infe_split --moving save_moving_0821 --har 0821_har --detect 0821_detect --label 0821_labels --har_cfg 0.0 --smooth_cfg 0.0 --start_cfg 0.0 --gt_cfg 08213004 --gt_mode 1 --gt_trans 1 --gt_sc 08213004 --dis 15 --label_type 1 --sample 100000 --save ./acc_results/save_0821_3004.npy
+python state.py --save_dir_all 0821_results_all --motion 0821_infe_split --moving save_moving_0821 --har 0821_har --detect 0821_detect --label 0821_labels --har_cfg 0.0 --smooth_cfg 0.0 --start_cfg 0.0 --gt_cfg 08213005 --gt_mode 1 --gt_trans 1 --gt_sc 08213005 --dis 15 --label_type 1 --sample 100000 --save ./acc_results/save_0821_3005.npy
